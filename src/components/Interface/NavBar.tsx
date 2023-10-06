@@ -4,7 +4,7 @@ import { NavCataButton } from "../../styled_componet/interface_compoents/NavBar.
 const NavBar: FunctionComponent = function () {
   const [click, setClick] = useState();
   return (
-    <div>
+    <div style={{ height: "100vh" }}>
       {/* logo */}
       <div
         style={{
