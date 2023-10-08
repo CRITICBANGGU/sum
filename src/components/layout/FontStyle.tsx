@@ -1,225 +1,186 @@
 import styled from "styled-components";
 
-export const BoldDisplay05 = styled.p`
+export const Heading48 = styled.p`
   font-weight: 700;
-  letter-spacing: -0.7px;
-  font-size: 2.5rem; //40px
-  line-height: 3.25rem;
+  letter-spacing: -0.2px;
+  font-size: 48px;
+  line-height: 64px;
+`;
+export const Heading40 = styled.p`
+font-weight: 700;
+letter-spacing: -0.2px;
+font-size: 40px;
+line-height: 56px;
+`;
+export const Heading32 = styled.p`
+font-weight: 700;
+letter-spacing: -0.2px;
+font-size: 32px;
+line-height: 44px;
+`;
+export const Heading28 = styled.p`
+font-weight: 700;
+letter-spacing: -0.2px;
+font-size: 28px;
+line-height: 40px;
+`;
+export const Heading24 = styled.p`
+font-weight: 700;
+letter-spacing: -0.2px;
+font-size: 24px;
+line-height: 36px;
+`;
+export const Heading20 = styled.p`
+font-weight: 700;
+letter-spacing: -0.2px;
+font-size: 20px;
+line-height: 32px;
 `;
 
-export const BoldDisplay04 = styled.p`
-  font-weight: 700;
-  letter-spacing: -0.7px;
-  font-size: 2.25rem; //36px
-  line-height: 2.875rem;
+
+export const Label40 = styled.p`
+font-weight: 600;
+letter-spacing: -0.2px;
+font-size: 40px;
+line-height: 56px;
 `;
-export const BoldDisplay03 = styled.p`
-  font-weight: 700;
-  letter-spacing: -0.7px
-  font-size: 2rem; //40px
-  line-height: 2.625rem;
+export const Label32 = styled.p`
+font-weight: 600;
+letter-spacing: -0.2px;
+font-size: 32px;
+line-height: 44px;
 `;
-export const BoldDisplay02 = styled.p`
-  font-weight: 700;
-  letter-spacing: -0.7px;
-  font-size: 1.75em; //40px
-  line-height: 2.375rem;
+export const Label28 = styled.p`
+font-weight: 600;
+letter-spacing: -0.2px;
+font-size: 28px;
+line-height: 40px;
 `;
-export const BoldDisplay01 = styled.p`
-  font-weight: 700;
-  letter-spacing: -0.7px;
-  font-size: 25px;
-  line-height: 2.19rem;
+export const Label24 = styled.p`
+font-weight: 600;
+letter-spacing: -0.2px;
+font-size: 24px;
+line-height: 36px;
+`;
+export const Label20 = styled.p`
+font-weight: 600;
+letter-spacing: -0.2px;
+font-size: 20px;
+line-height: 32px;
+`;
+export const Label18 = styled.p`
+font-weight: 600;
+letter-spacing: -0.2px;
+font-size: 18px;
+line-height: 28px;
+`;
+export const Label16 = styled.p`
+font-weight: 600;
+letter-spacing: -0.2px;
+font-size: 16px;
+line-height: 24px;
 `;
 
-export const BoldHeadLine02 = styled.p`
-  font-weight: 700;
-  letter-spacing: -0.7px;
-  font-size: 1.38em; //40px
-  line-height: 1.88rem;
+
+export const ParagraphMedium28 = styled.p`
+font-weight: 500;
+letter-spacing: -0.2px;
+font-size: 28px;
+line-height: 40px;
+`;
+export const ParagraphMedium24 = styled.p`
+font-weight: 500;
+letter-spacing: -0.2px;
+font-size: 24px;
+line-height: 36px;
+`;
+export const ParagraphMedium20 = styled.p`
+font-weight: 500;
+letter-spacing: -0.2px;
+font-size: 20px;
+line-height: 32px;
+`;
+export const ParagraphMedium16 = styled.p`
+font-weight: 500;
+letter-spacing: -0.2px;
+font-size: 16px;
+line-height: 24px;
+`;
+export const ParagraphMedium14 = styled.p`
+font-weight: 500;
+letter-spacing: -0.2px;
+font-size: 14px;
+line-height: 24px;
+`;
+export const ParagraphMedium12 = styled.p`
+font-weight: 500;
+letter-spacing: -0.2px;
+font-size: 12px;
+line-height: 20px;
 `;
 
-export const BoldHeadLine01 = styled.p`
-  font-weight: 700;
-  letter-spacing: -0.7px;
-  font-size: 1.25em; //40px
-  line-height: 1.75rem;
+
+export const ParagraphRegular28 = styled.p`
+font-weight: 400;
+letter-spacing: -0.2px;
+font-size: 28px;
+line-height: 40px;
+`;
+export const ParagraphRegular24 = styled.p`
+font-weight: 400;
+letter-spacing: -0.2px;
+font-size: 24px;
+line-height: 36px;
+`;
+export const ParagraphRegular20 = styled.p`
+font-weight: 400;
+letter-spacing: -0.2px;
+font-size: 20px;
+line-height: 32px;
+`;
+export const ParagraphRegular16 = styled.p`
+font-weight: 400;
+letter-spacing: -0.2px;
+font-size: 16px;
+line-height: 24px;
+`;
+export const ParagraphRegular14 = styled.p`
+font-weight: 400;
+letter-spacing: -0.2px;
+font-size: 14px;
+line-height: 24px;
+`;
+export const ParagraphRegular12 = styled.p`
+font-weight: 400;
+letter-spacing: -0.2px;
+font-size: 12px;
+line-height: 20px;
 `;
 
-export const BoldSubHead02 = styled.p`
-  font-weight: 700;
-  letter-spacing: -0.7px;
-  font-size: 1.13em; //40px
-  line-height: 1.5rem;
-`;
 
-export const BoldSubHead01 = styled.p`
-  font-weight: 700;
-  letter-spacing: -0.7px;
-  font-size: 1em; //40px
-  line-height: 1.38rem;
-`;
-
-export const BoldSubHeadLong02 = styled.p`
-  font-weight: 700;
-  letter-spacing: -0.7px;
-  font-size: 1.13em; //40px
-  line-height: 1.88rem;
-`;
-
-export const BoldSubHeadLong01 = styled.p`
-  font-weight: 700;
-  letter-spacing: -0.7px;
-  font-size: 1em; //40px
-  line-height: 1.63rem;
-`;
-
-export const SemiBoldDisplay05 = styled.p`
-  font-weight: 600;
-  letter-spacing: -0.7px;
-  font-size: 2.5rem; //40px
-  line-height: 3.25rem;
-`;
-export const SemiBoldDisplay04 = styled.p`
-  font-weight: 600;
-  letter-spacing: -0.7px;
-  font-size: 2.25rem; //36px
-  line-height: 2.875rem;
-`;
-export const SemiBoldDisplay03 = styled.p`
-  font-weight: 600;
-  letter-spacing: -0.7px;
-  font-size: 2rem; //40px
-  line-height: 2.625rem;
-`;
-export const SemiBoldDisplay02 = styled.p`
-  font-weight: 600;
-  letter-spacing: -0.7px;
-  font-size: 1.75em; //40px
-  line-height: 2.375rem;
-`;
-export const SemiBoldDisplay01 = styled.p`
-  font-weight: 600;
-  letter-spacing: -0.7px;
-  font-size: 1.56em; //40px
-  line-height: 2.19rem;
-`;
-
-export const SemiBoldHeadLine02 = styled.p`
-  font-weight: 600;
-  letter-spacing: -0.6px;
-  font-size: 1.38em; //40px
-  line-height: 1.88rem;
-  @media screen and (max-width: 1024px) {
-    font-weight: 600;
-    letter-spacing: -0.7px;
-    font-size: 1.13em; //40px
-    line-height: 1.5rem;
-  }
-`;
-
-export const SemiBoldHeadLine01 = styled.p`
-  font-weight: 600;
-  letter-spacing: -0.6px;
-  font-size: 1.25em; //20px
-  line-height: 1.75rem; //28px
-`;
-
-export const SemiBoldSubHead02 = styled.p`
-  font-weight: 600;
-  letter-spacing: -0.7px;
-  font-size: 1.13em; //40px
-  line-height: 1.5rem;
-`;
-
-export const SemiBoldSubHead01 = styled.p`
-  font-weight: 600;
-  letter-spacing: -0.7px;
-  font-size: 1em; //40px
-  line-height: 1.38rem;
-`;
-
-export const SemiBoldSubHeadLong02 = styled.p`
-  font-weight: 600;
-  letter-spacing: -0.7px;
-  font-size: 1.13em; //40px
-  line-height: 1.88rem;
-`;
-
-export const SemiBoldSubHeadLong01 = styled.p`
-  font-weight: 600;
-  letter-spacing: -0.7px;
-  font-size: 1em; //40px
-  line-height: 1.63rem;
-`;
-
-export const MediumBody02 = styled.p`
-  font-weight: 500;
-  letter-spacing: -0.6px;
-  font-size: 1rem; //40px
-  line-height: 1.5rem;
-`;
-
-export const MediumBodyLong02 = styled.p`
-  font-weight: 500;
-  letter-spacing: -0.7px;
-  font-size: 1em; //40px
-  line-height: 1.75rem;
-`;
-
-export const MediumBody01 = styled.p`
-  font-weight: 500;
-  letter-spacing: -0.5px;
-  font-size: 12px; //40px
-  line-height: 150%;
-`;
-
-export const MediumBodyLong01 = styled.p`
-  font-weight: 500;
-  letter-spacing: -0.7px;
-  font-size: 0.88em; //40px
-  line-height: 1.5rem;
-`;
-
-export const MediumBodyCaption = styled.p`
-  font-weight: 500;
-  letter-spacing: -0.7px;
-  font-size: 0.75em; //40px
-  line-height: 1.13rem;
-`;
-
-export const RegularBody02 = styled.p`
+export const Caption48 = styled.p`
   font-weight: 400;
   letter-spacing: -0.7px;
-  font-size: 1em; //40px
-  line-height: 1.5rem;
-  @media screen and (max-width: 1024px) {
-    font-weight: 400;
-    letter-spacing: -0.7px;
-    font-size: 0.88em; //40px
-    line-height: 1.25rem;
-  }
+  font-size: 48px;
+  line-height: 64px;
 `;
-
-export const RegularBodyLong02 = styled.p`
+export const Caption32 = styled.p`
   font-weight: 400;
   letter-spacing: -0.7px;
-  font-size: 1em; //40px
-  line-height: 1.75rem;
+  font-size: 32px;
+  line-height: 44px;
 `;
-
-export const RegularBody01 = styled.p`
+export const Caption20 = styled.p`
   font-weight: 400;
   letter-spacing: -0.7px;
-  font-size: 0.88em; //40px
-  line-height: 1.25rem;
+  font-size: 20px;
+  line-height: 32px;
 `;
-
-export const RegularBodyLong01 = styled.p`
+export const Caption12 = styled.p`
   font-weight: 400;
   letter-spacing: -0.7px;
-  font-size: 0.88em; //40px
-  line-height: 1.5rem;
+  font-size: 12px;
+  line-height: 20px;
 `;
 
 export const RegularBodyCaption = styled.p`
@@ -233,11 +194,15 @@ export const FontSizeValue = {
   _8: "8px",
   _10: "10px",
   _12: "12px",
+  _14: '14px',
   _16: "16px",
+  _18: '18px',
   _20: "20px",
-  _25: "25px",
-  _31: "31px",
+  _24: "24px",
+  _28: '28px',
+  _32: "32px",
   _39: "39px",
+  _40: '40px',
   _48: "48px",
   _61: "61px",
 };
@@ -269,7 +234,7 @@ export const LineHeightValue = {
 };
 
 export const LetterSpacingValue = {
-  _minus05: "-0.5px",
+  _minus02: "-0.2px",
 };
 
 export const FontWeightTheme = {
@@ -281,346 +246,161 @@ export const FontWeightTheme = {
 
 export const TypographyStyle = {
   heading: {
-    bold25: {
-      fontWeight: FontWeightTheme.Heading,
-      lineHeight: LineHeightValue._140,
-      fontSize: FontSizeValue._25,
-      letterSpacing: LetterSpacingValue._minus05,
-    },
-    bold16: {
-      fontWeight: FontWeightTheme.Heading,
-      lineHeight: LineHeightValue._140,
-      fontSize: FontSizeValue._16,
-      letterSpacing: LetterSpacingValue._minus05,
-    },
-    bold20: {
-      fontWeight: FontWeightTheme.Heading,
-      lineHeight: LineHeightValue._140,
-      fontSize: FontSizeValue._20,
-      letterSpacing: LetterSpacingValue._minus05,
-    },
-    bold31: {
-      FontWeight: FontWeightTheme.Heading,
-      LineHeight: LineHeightValue._140,
-      fontSize: FontSizeValue._31,
-      letterSpacing: LetterSpacingValue._minus05,
-    },
-    bold39: {
-      FontWeight: FontWeightTheme.Heading,
-      LineHeight: LineHeightValue._140,
-      fontSize: FontSizeValue._39,
-      letterSpacing: LetterSpacingValue._minus05,
-    },
-    bold48: {
-      FontWeight: FontWeightTheme.Heading,
-      LineHeight: LineHeightValue._140,
+    _48: {
+      fontWeight: FontWeightValue.Bold,
+      lineHeight: "64px",
       fontSize: FontSizeValue._48,
-      letterSpacing: LetterSpacingValue._minus05,
+      letterSpacing: LetterSpacingValue._minus02,
     },
-    bold61: {
-      FontWeight: FontWeightTheme.Heading,
-      LineHeight: LineHeightValue._140,
-      fontSize: FontSizeValue._61,
-      letterSpacing: LetterSpacingValue._minus05,
+    _40: {
+      fontWeight: FontWeightValue.Bold,
+      lineHeight: "65px",
+      fontSize: FontSizeValue._40,
+      letterSpacing: LetterSpacingValue._minus02,
     },
+    _32: {
+      fontWeight: FontWeightValue.Bold,
+      lineHeight: "44px",
+      fontSize: FontSizeValue._32,
+      letterSpacing: LetterSpacingValue._minus02,
+    },
+    _28: {
+      FontWeight: FontWeightValue.Bold,
+      LineHeight: "40px",
+      fontSize: FontSizeValue._28,
+      letterSpacing: LetterSpacingValue._minus02,
+    },
+    _24: {
+      FontWeight: FontWeightValue.Bold,
+      LineHeight: "36px",
+      fontSize: FontSizeValue._24,
+      letterSpacing: LetterSpacingValue._minus02,
+    },
+    _20: {
+      FontWeight: FontWeightValue.Bold,
+      LineHeight: "32px",
+      fontSize: FontSizeValue._20,
+      letterSpacing: LetterSpacingValue._minus02,
+    }
   },
   label: {
-    semiBold25: {
+    _40: {
       fontWeight: FontWeightTheme.Label,
-      lineHeight: LineHeightValue.Paragraph,
-      fontSize: FontSizeValue._25,
-      letterSpacing: LetterSpacingValue._minus05,
+      lineHeight: '56px',
+      fontSize: FontSizeValue._40,
+      letterSpacing: LetterSpacingValue._minus02,
     },
-    semiBold16: {
+    _32: {
       fontWeight: FontWeightTheme.Label,
-      //lineHeight: LineHeightValue.Paragraph,
+      lineHeight: '44px',
+      fontSize: FontSizeValue._32,
+      letterSpacing: LetterSpacingValue._minus02,
+    },
+    _28: {
+      fontWeight: FontWeightTheme.Label,
+      lineHeight: '40px',
+      fontSize: FontSizeValue._28,
+      letterSpacing: LetterSpacingValue._minus02,
+    },
+    _24: {
+      FontWeight: FontWeightTheme.Label,
+      LineHeight: '36px',
+      fontSize: FontSizeValue._24,
+      letterSpacing: LetterSpacingValue._minus02,
+    },
+    _20: {
+      FontWeight: FontWeightTheme.Label,
+      LineHeight: '32px',
+      fontSize: FontSizeValue._20,
+      letterSpacing: LetterSpacingValue._minus02,
+    },
+    _18: {
+      FontWeight: FontWeightTheme.Label,
+      LineHeight: '28px',
+      fontSize: FontSizeValue._18,
+      letterSpacing: LetterSpacingValue._minus02,
+    },
+    _16: {
+      FontWeight: FontWeightTheme.Label,
+      LineHeight: '24px',
       fontSize: FontSizeValue._16,
-      letterSpacing: LetterSpacingValue._minus05,
-    },
-    semiBold20: styled.p`
-      font-weight: ${FontWeightTheme.Label},
-      line-height: ${LineHeightValue.Paragraph},
-      font-size:${FontSizeValue._20},
-      letter-spacing: ${LetterSpacingValue._minus05},
-    `,
-    semiBold31: {
-      FontWeight: FontWeightTheme.Label,
-      LineHeight: LineHeightValue.Paragraph,
-      fontSize: FontSizeValue._31,
-      letterSpacing: LetterSpacingValue._minus05,
-    },
-    semiBold39: {
-      FontWeight: FontWeightTheme.Label,
-      LineHeight: LineHeightValue.Paragraph,
-      fontSize: FontSizeValue._39,
-      letterSpacing: LetterSpacingValue._minus05,
-    },
-    semiBold48: {
-      FontWeight: FontWeightTheme.Label,
-      LineHeight: LineHeightValue.Paragraph,
-      fontSize: FontSizeValue._48,
-      letterSpacing: LetterSpacingValue._minus05,
+      letterSpacing: LetterSpacingValue._minus02,
     },
   },
   paragraphMedium: {
-    paragraphMedium25: {
+    _28: {
       FontWeight: FontWeightTheme.ParagraphMedium,
-      LineHeight: LineHeightValue.Paragraph,
-      fontSize: FontSizeValue._25,
-      letterSpacing: LetterSpacingValue._minus05,
+      LineHeight: '40px',
+      fontSize: FontSizeValue._28,
+      letterSpacing: LetterSpacingValue._minus02,
     },
-    paragraphMedium16: {
+    _24: {
       FontWeight: FontWeightTheme.ParagraphMedium,
-      LineHeight: LineHeightValue.Paragraph,
-      fontSize: FontSizeValue._16,
-      letterSpacing: LetterSpacingValue._minus05,
+      LineHeight: "36px",
+      fontSize: FontSizeValue._24,
+      letterSpacing: LetterSpacingValue._minus02,
     },
-    paragraphMedium12: {
+    _20: {
       FontWeight: FontWeightTheme.ParagraphMedium,
-      LineHeight: LineHeightValue.Paragraph,
-      fontSize: FontSizeValue._12,
-      letterSpacing: LetterSpacingValue._minus05,
-    },
-    paragraphMedium10: {
-      FontWeight: FontWeightTheme.ParagraphMedium,
-      LineHeight: LineHeightValue.Paragraph,
-      fontSize: FontSizeValue._10,
-      letterSpacing: LetterSpacingValue._minus05,
-    },
-    paragraphMedium8: {
-      FontWeight: FontWeightTheme.ParagraphMedium,
-      LineHeight: LineHeightValue.Paragraph,
-      fontSize: FontSizeValue._8,
-      letterSpacing: LetterSpacingValue._minus05,
-    },
-    paragraphMedium20: {
-      FontWeight: FontWeightTheme.ParagraphMedium,
-      LineHeight: LineHeightValue.Paragraph,
+      LineHeight: "32px",
       fontSize: FontSizeValue._20,
-      letterSpacing: LetterSpacingValue._minus05,
+      letterSpacing: LetterSpacingValue._minus02,
     },
-    paragraphMedium31: {
+    _16: {
       FontWeight: FontWeightTheme.ParagraphMedium,
-      LineHeight: LineHeightValue.Paragraph,
-      fontSize: FontSizeValue._31,
-      letterSpacing: LetterSpacingValue._minus05,
+      LineHeight: "24px",
+      fontSize: FontSizeValue._16,
+      letterSpacing: LetterSpacingValue._minus02,
+    },
+    _14: {
+      FontWeight: FontWeightTheme.ParagraphMedium,
+      LineHeight: '24px',
+      fontSize: FontSizeValue._14,
+      letterSpacing: LetterSpacingValue._minus02,
+    },
+    _12: {
+      FontWeight: FontWeightTheme.ParagraphMedium,
+      LineHeight: "20px",
+      fontSize: FontSizeValue._12,
+      letterSpacing: LetterSpacingValue._minus02,
     },
   },
   paragraphRegular: {
-    paragraphRegular25: {
+    _28: {
       FontWeight: FontWeightTheme.ParagraphRegular,
-      LineHeight: LineHeightValue.Paragraph,
-      fontSize: FontSizeValue._25,
-      letterSpacing: LetterSpacingValue._minus05,
+      LineHeight: "40px",
+      fontSize: FontSizeValue._28,
+      letterSpacing: LetterSpacingValue._minus02,
     },
-    paragraphRegular16: {
+    _24: {
       FontWeight: FontWeightTheme.ParagraphRegular,
-      LineHeight: LineHeightValue.Paragraph,
+      LineHeight: "36px",
+      fontSize: FontSizeValue._24,
+      letterSpacing: LetterSpacingValue._minus02,
+    },
+    _20: {
+      FontWeight: FontWeightTheme.ParagraphRegular,
+      LineHeight: "32px",
+      fontSize: FontSizeValue._20,
+      letterSpacing: LetterSpacingValue._minus02,
+    },
+    _16: {
+      FontWeight: FontWeightTheme.ParagraphRegular,
+      LineHeight: "24px",
       fontSize: FontSizeValue._16,
-      letterSpacing: LetterSpacingValue._minus05,
+      letterSpacing: LetterSpacingValue._minus02,
     },
-    paragraphRegular12: {
+    _14: {
       FontWeight: FontWeightTheme.ParagraphRegular,
-      LineHeight: LineHeightValue.Paragraph,
+      LineHeight: '24px',
+      fontSize: FontSizeValue._14,
+      letterSpacing: LetterSpacingValue._minus02,
+    },
+    _12: {
+      FontWeight: FontWeightTheme.ParagraphRegular,
+      LineHeight: "20px",
       fontSize: FontSizeValue._12,
-      letterSpacing: LetterSpacingValue._minus05,
-    },
-    paragraphRegular10: {
-      FontWeight: FontWeightTheme.ParagraphRegular,
-      LineHeight: LineHeightValue.Paragraph,
-      fontSize: FontSizeValue._10,
-      letterSpacing: LetterSpacingValue._minus05,
-    },
-    paragraphRegular8: {
-      FontWeight: FontWeightTheme.ParagraphRegular,
-      LineHeight: LineHeightValue.Paragraph,
-      fontSize: FontSizeValue._8,
-      letterSpacing: LetterSpacingValue._minus05,
-    },
-    paragraphRegular20: {
-      FontWeight: FontWeightTheme.ParagraphRegular,
-      LineHeight: LineHeightValue.Paragraph,
-      fontSize: FontSizeValue._20,
-      letterSpacing: LetterSpacingValue._minus05,
-    },
-    paragraphRegular31: {
-      FontWeight: FontWeightTheme.ParagraphRegular,
-      LineHeight: LineHeightValue.Paragraph,
-      fontSize: FontSizeValue._31,
-      letterSpacing: LetterSpacingValue._minus05,
-    },
-  },
-};
-
-export const TypographyComponent = {
-  heading: {
-    bold25: styled.p`
-      font-weight: ${FontWeightTheme.Heading};
-      line-height: ${LineHeightValue._140}%;
-      font-size: ${FontSizeValue._25};
-      letter-spacing: ${LetterSpacingValue._minus05};
-    `,
-    bold16: styled.p`
-      font-weight: ${FontWeightTheme.Heading};
-      line-height: ${LineHeightValue._140}%;
-      font-size: ${FontSizeValue._16};
-      letter-spacing: ${LetterSpacingValue._minus05};
-    `,
-    bold20: styled.p`
-      font-weight: ${FontWeightTheme.Heading};
-      line-height: ${LineHeightValue._140}%;
-      font-size: ${FontSizeValue._20};
-      letter-spacing: ${LetterSpacingValue._minus05};
-    `,
-    bold31: {
-      FontWeight: FontWeightTheme.Heading,
-      LineHeight: LineHeightValue._140,
-      fontSize: FontSizeValue._31,
-      letterSpacing: LetterSpacingValue._minus05,
-    },
-    bold39: {
-      FontWeight: FontWeightTheme.Heading,
-      LineHeight: LineHeightValue._140,
-      fontSize: FontSizeValue._39,
-      letterSpacing: LetterSpacingValue._minus05,
-    },
-    bold48: {
-      FontWeight: FontWeightTheme.Heading,
-      LineHeight: LineHeightValue._140,
-      fontSize: FontSizeValue._48,
-      letterSpacing: LetterSpacingValue._minus05,
-    },
-    bold61: {
-      FontWeight: FontWeightTheme.Heading,
-      LineHeight: LineHeightValue._140,
-      fontSize: FontSizeValue._61,
-      letterSpacing: LetterSpacingValue._minus05,
-    },
-  },
-  label: {
-    semiBold25: styled.p`
-      font-weight: ${FontWeightTheme.Label};
-      //line-height: ${LineHeightValue.Paragraph};
-      font-size: ${FontSizeValue._25};
-      letter-spacing: ${LetterSpacingValue._minus05};
-    `,
-    semiBold16: styled.p`
-      font-weight: ${FontWeightTheme.Label};
-      //line-height: ${LineHeightValue.Paragraph};
-      font-size: ${FontSizeValue._16};
-      letter-spacing: ${LetterSpacingValue._minus05};
-    `,
-    semiBold20: styled.p`
-      font-weight: ${FontWeightTheme.Label};
-      //line-height: ${LineHeightValue.Paragraph};
-      font-size: ${FontSizeValue._20};
-      letter-spacing: ${LetterSpacingValue._minus05};
-    `,
-    semiBold31: styled.p`
-      font-weight: ${FontWeightTheme.Label};
-      // line-height: ${LineHeightValue.Paragraph};
-      font-size: ${FontSizeValue._31};
-      letter-spacing: ${LetterSpacingValue._minus05};
-    `,
-    semiBold39: styled.p`
-      font-weight: ${FontWeightTheme.Label};
-      // line-height: ${LineHeightValue.Paragraph};
-      font-size: ${FontSizeValue._39};
-      letter-spacing: ${LetterSpacingValue._minus05};
-    `,
-    semiBold48: {
-      FontWeight: FontWeightTheme.Label,
-      LineHeight: LineHeightValue.Paragraph,
-      fontSize: FontSizeValue._48,
-      letterSpacing: LetterSpacingValue._minus05,
-    },
-  },
-  paragraphMedium: {
-    paragraphMedium25: {
-      FontWeight: FontWeightTheme.ParagraphMedium,
-      LineHeight: LineHeightValue.Paragraph,
-      fontSize: FontSizeValue._25,
-      letterSpacing: LetterSpacingValue._minus05,
-    },
-    paragraphMedium16: styled.p`
-      font-weight: ${FontWeightTheme.ParagraphMedium};
-      // line-height: ${LineHeightValue.Paragraph};
-      font-size: ${FontSizeValue._16};
-      letter-spacing: ${LetterSpacingValue._minus05};
-    `,
-    paragraphMedium12: styled.p`
-      font-weight: ${FontWeightTheme.ParagraphMedium};
-      // line-height: ${LineHeightValue.Paragraph}px;
-      font-size: ${FontSizeValue._12};
-      letter-spacing: ${LetterSpacingValue._minus05};
-    `,
-    paragraphMedium10: {
-      FontWeight: FontWeightTheme.ParagraphMedium,
-      LineHeight: LineHeightValue.Paragraph,
-      fontSize: FontSizeValue._10,
-      letterSpacing: LetterSpacingValue._minus05,
-    },
-    paragraphMedium8: styled.p`
-      font-weight: ${FontWeightTheme.ParagraphMedium};
-      // line-height: ${LineHeightValue.Paragraph}px;
-      font-size: ${FontSizeValue._8};
-      letter-spacing: ${LetterSpacingValue._minus05};
-    `,
-    paragraphMedium20: {
-      FontWeight: FontWeightTheme.ParagraphMedium,
-      LineHeight: LineHeightValue.Paragraph,
-      fontSize: FontSizeValue._20,
-      letterSpacing: LetterSpacingValue._minus05,
-    },
-    paragraphMedium31: {
-      FontWeight: FontWeightTheme.ParagraphMedium,
-      LineHeight: LineHeightValue.Paragraph,
-      fontSize: FontSizeValue._31,
-      letterSpacing: LetterSpacingValue._minus05,
-    },
-  },
-  paragraphRegular: {
-    paragraphRegular25: {
-      FontWeight: FontWeightTheme.ParagraphRegular,
-      LineHeight: LineHeightValue.Paragraph,
-      fontSize: FontSizeValue._25,
-      letterSpacing: LetterSpacingValue._minus05,
-    },
-    paragraphRegular16: styled.p`
-      font-weight: ${FontWeightTheme.ParagraphRegular};
-      //line-height: ${LineHeightValue.Paragraph}%;
-      font-size: ${FontSizeValue._16};
-      letter-spacing: ${LetterSpacingValue._minus05};
-    `,
-    paragraphRegular12: styled.p`
-      font-weight: ${FontWeightTheme.ParagraphRegular};
-      line-height: ${LineHeightValue.Paragraph}%;
-      font-size: ${FontSizeValue._12};
-      letter-spacing: ${LetterSpacingValue._minus05};
-    `,
-    paragraphRegular10: {
-      FontWeight: FontWeightTheme.ParagraphRegular,
-      LineHeight: LineHeightValue.Paragraph,
-      fontSize: FontSizeValue._10,
-      letterSpacing: LetterSpacingValue._minus05,
-    },
-    paragraphRegular8: {
-      FontWeight: FontWeightTheme.ParagraphRegular,
-      LineHeight: LineHeightValue.Paragraph,
-      fontSize: FontSizeValue._8,
-      letterSpacing: LetterSpacingValue._minus05,
-    },
-    paragraphRegular20: {
-      FontWeight: FontWeightTheme.ParagraphRegular,
-      LineHeight: LineHeightValue.Paragraph,
-      fontSize: FontSizeValue._20,
-      letterSpacing: LetterSpacingValue._minus05,
-    },
-    paragraphRegular31: {
-      FontWeight: FontWeightTheme.ParagraphRegular,
-      LineHeight: LineHeightValue.Paragraph,
-      fontSize: FontSizeValue._31,
-      letterSpacing: LetterSpacingValue._minus05,
+      letterSpacing: LetterSpacingValue._minus02,
     },
   },
 };
