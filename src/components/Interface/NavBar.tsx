@@ -1,17 +1,22 @@
-import React, { FunctionComponent, useState } from "react";
-import { NavCataButton } from "../../styled_componet/interface_compoents/NavBar.style";
+import React, { FunctionComponent } from "react";
+import {
+  NavBarContainer,
+  NavCataButton,
+} from "../../styled_componet/interface_compoents/NavBar.style";
 import { Heading20, Label20 } from "../layout/FontStyle";
 
 const NavBar: FunctionComponent = function () {
-  const [click, setClick] = useState();
   return (
-    <div style={{ height: "100vh" }}>
+    <NavBarContainer style={{}}>
       {/* logo */}
       <div
         style={{
           display: "flex",
           padding: "24px",
-          width: "220px",
+          // width: "100%",
+
+          maxWidth: "220px",
+          minWidth: "220px",
           borderBottom: "1px solid",
         }}
       >
@@ -26,11 +31,10 @@ const NavBar: FunctionComponent = function () {
             paddingLeft: "24px",
           }}
         >
-          <Label20>
-            all isles.</Label20>
+          <Label20>all isles.</Label20>
         </NavCataButton>
       </div>
-    </div>
+    </NavBarContainer>
   );
 };
 
