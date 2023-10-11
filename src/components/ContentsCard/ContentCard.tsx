@@ -7,8 +7,10 @@ import {
 } from "../layout/FontStyle";
 import { SystemColor } from "../layout/RootColorStyle";
 import { FillColor, TextColor } from "../layout/SemanticColorStyle";
+import { useNavigate } from "react-router-dom";
 
 const ContentCard: FunctionComponent<contentCardPropsType> = function (props) {
+  const navigation = useNavigate();
   return (
     <div
       style={{
@@ -17,6 +19,9 @@ const ContentCard: FunctionComponent<contentCardPropsType> = function (props) {
         height: "320px",
         backgroundColor: "white",
         borderRadius: "16px",
+      }}
+      onClick={() => {
+        navigation("/contents");
       }}
     >
       <div
