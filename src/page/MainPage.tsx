@@ -7,15 +7,7 @@ const MainPage: FunctionComponent = function () {
   return (
     <div style={{ display: "flex" }}>
       <NavBar />
-      <GridLayoutDiv
-        style={
-          {
-            // width: "100%",
-            // padding: "24px",
-            // backgroundColor: BackgroundColor.bg3,
-          }
-        }
-      >
+      <GridLayoutDiv>
         <ContentCard
           writer={"jaehyun"}
           date={"2023-10-05-Thu"}

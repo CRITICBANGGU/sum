@@ -35,7 +35,7 @@ export const AlphaColorOpacityStyle = {
         Opacity100: "rgba(255, 255, 255, 0.68)",
         Opacity110: "rgba(255, 255, 255, 0.72)",
         Opacity120: "rgba(255, 255, 255, 0.82)",
-        Opacity130: "rgba(255, 255, 255, 1)",
+        Opacity130: "rgba(255, 255, 255)",
     },
     Gray: {
         Opacity10: "rgba(31, 82, 158," + OpacityValue._10 + ")",
