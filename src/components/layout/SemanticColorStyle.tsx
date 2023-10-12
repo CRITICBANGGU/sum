@@ -60,3 +60,17 @@ export const CardColor = {
   successCard: greenScaleTheme.greenScaleColor90,
   errorCard: redScaleTheme.redScaleColor90,
 };
+
+export const BorderColor = {
+  border1: AlphaColorOpacityStyle.Neutral.Opacity40,
+  border2: AlphaColorOpacityStyle.Neutral.Opacity60,
+  border3: AlphaColorOpacityStyle.Neutral.Opacity70,
+  border4: AlphaColorOpacityStyle.Neutral.Opacity90,
+  border5: AlphaColorOpacityStyle.Neutral.Opacity110,
+  border6: AlphaColorOpacityStyle.Neutral.Opacity130,
+  disabledBorder: AlphaColorOpacityStyle.Neutral.Opacity60,
+  accentBorder: violetScaleTheme.violetScaleColor90,
+  successBorder: greenScaleTheme.greenScaleColor90,
+  errorBorder: redScaleTheme.redScaleColor90,
+  warningBorder: orangeScaleTheme.orangeScaleColor90,
+};
