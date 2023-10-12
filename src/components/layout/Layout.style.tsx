@@ -1,8 +1,10 @@
 import { styled } from "styled-components";
 import { BackgroundColor } from "./SemanticColorStyle";
+import { FunctionComponent } from "react";
 
 export const GridLayoutDiv = styled.div`
   padding: 24px;
+  min-height:100%;
   background-color: ${BackgroundColor.bg3};
   grid-column-gap: 16px;
   grid-row-gap: 16px;
@@ -18,3 +20,13 @@ export const GridLayoutDiv = styled.div`
     grid-template-columns: repeat(1, 1fr);
   }
 `;
+
+export const Spacer: FunctionComponent<{
+  horizontal?: boolean;
+  space: string;
+}> = function (props) {
+  if (props.horizontal) {
+    return <div style={{ height: props.space }} />;
+  }
+  return <div style={{ width: props.space }} />;
+};
