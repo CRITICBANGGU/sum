@@ -1,4 +1,4 @@
-import React, { FunctionComponent } from "react";
+import { FunctionComponent } from "react";
 import {
   NavBarContainer,
   NavCataButton,
@@ -44,6 +44,7 @@ const NavBar: FunctionComponent = function () {
                 padding: "12px 0",
                 paddingLeft: "36px",
               }}
+              key={index}
             >
               <ParagraphMedium14>{item} isles.</ParagraphMedium14>
             </NavCataButton>)
