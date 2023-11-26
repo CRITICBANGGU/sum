@@ -1,6 +1,7 @@
 import { styled } from "styled-components";
 import { BackgroundColor } from "./SemanticColorStyle";
 import { FunctionComponent } from "react";
+import { TypographyStyle } from "./FontStyle";
 
 export const GridLayoutDiv = styled.div`
   padding: 24px;
@@ -30,3 +31,37 @@ export const Spacer: FunctionComponent<{
   }
   return <div style={{ width: props.space }} />;
 };
+
+export const FlexContainer = styled.div`
+display:flex;
+@media screen and (min-width: 426px) and (max-width: 1023px) {
+  display:block;
+}
+`
+
+export const HalfToFull = styled.div`
+width:50%;
+@media screen and (min-width: 426px) and (max-width: 1023px) {
+  width:100%;
+}
+`;
+
+export const FlexAlignCenter = styled.div`
+display:flex;
+align-items: center;
+`;
+
+export const FlexHoverContainer = styled.div`
+display:flex;
+align-items: center;
+padding:4px 16px 4px 8px;
+&:hover{
+  background-color:${BackgroundColor.bg3};
+  border-radius:8px;
+}
+`;
+
+export const FlexCenterContainer = styled.div`
+display:flex;
+justify-content: space-between;
+`
